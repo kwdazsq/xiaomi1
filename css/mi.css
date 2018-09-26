@@ -233,5 +233,124 @@
 
 /*5*/
 .buy {
-    
+    margin-top: 25px;
 }
+.title {
+    height: 58px;
+    line-height: 58px;
+    text-align: left;
+    font-weight: 200;
+    font-size: 22px;
+}
+.buy a {
+    float: right;
+    width: 70px;
+    height: 25px;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    line-height: 25px;
+    margin-top: 16.5px;
+}
+
+.buy>a:first-child {
+    border-right: 1px solid #e0e0e0;
+}
+.buy>a {
+    display: inline-block;
+    width: 33.5px;
+    text-align: center;
+    color: #b0b0b0;
+    transition: all .5s;
+    font-size: 19px;
+}
+.buy>a :hover{
+    color: #ff6700;
+}
+.buy_box>div{
+    width: 234px;
+    height: 339px;
+    border-top: 1px solid #e53935;
+    background-color: rgba(0,0,0,.02);
+    float: left;
+    margin-right: 14px;
+    position: relative;
+}
+.buy_box>div:last-child{
+    margin-right: 0;
+    border-top-color: #2196f3;
+}
+.buy_box>div:nth-child(2){
+    border-top-color: #00c0a5;
+}
+.buy_box>div:nth-child(3){
+    border-top-color:#ffac13;
+}
+.buy_box>div:nth-child(4){
+    border-top-color: #83c44e;
+}
+.buy_box>div:first-child{
+    background-color: #f1eded;
+}
+
+.time {
+    font-size: 21px;
+    color: #ef3a3b;
+    padding-top: 54px;
+
+}
+.flashpurchase {
+    margin: 25px 0;
+}
+.start_time {
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+}
+
+
+
+
+/*.mi_img{*/
+    /*margin-top: 39px;*/
+    /*margin-bottom: 22px;*/
+/*}*/
+/*.mi_title{*/
+    /*color: #212121;*/
+    /*margin: 0 auto;*/
+    /*margin-bottom: 3px;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*width: 194px;*/
+/*}*/
+/*.mi_desc{*/
+    /*color: #b0b0b0;*/
+    /*margin: 0 auto;*/
+    /*margin-bottom: 12px;*/
+    /*font-size: 12px;*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*width: 194px;*/
+/*}*/
+/*.mi_price{*/
+    /*color: #ff6700;*/
+/*}*/
+/*.mi_price>del{*/
+    /*color: #b0b0b0;*/
+/*}*/
+/*.youhui{*/
+    /*background-color: #e53935;*/
+    /*color: #fff;*/
+    /*width: 64px;*/
+    /*height: 20px;*/
+    /*font-size: 12px;*/
+    /*line-height: 20px;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 50%;*/
+    /*margin-left: -32px;*/
+/*}*/
+/*.ad_img{*/
+    /*width: 100%;*/
+    /*margin: 40px 0;*/
+/*}*/
